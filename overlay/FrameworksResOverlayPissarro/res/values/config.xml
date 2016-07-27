@@ -305,6 +305,9 @@
         M 0,0 H -40 V 80 H 40 V 0 H 0 Z
     </string>
 
+    <!-- True if the device supports Sustained Performance Mode -->
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
 
