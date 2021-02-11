@@ -231,6 +231,9 @@ PRODUCT_PACKAGES += \
    TetheringResOverlayPissarro \
    WifiOverlay
 
+PRODUCT_PACKAGES += \
+   LineageSDKPissarro
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
