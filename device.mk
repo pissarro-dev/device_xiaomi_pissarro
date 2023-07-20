@@ -92,7 +92,8 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service
 
 PRODUCT_PACKAGES += \
-    libdrm.vendor
+    libdrm.vendor \
+    libutils-v32
 
 # Fingerprint
 PRODUCT_PACKAGES += \
