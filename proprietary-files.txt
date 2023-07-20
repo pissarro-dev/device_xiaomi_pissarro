@@ -1,5 +1,9 @@
 # Unpinned blobs from pissarro_global-user 13 TP1A.220624.014 V14.0.6.0.TKTMIXM release-keys
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Audio
 vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
 vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin
