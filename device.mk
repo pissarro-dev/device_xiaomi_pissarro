@@ -317,9 +317,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
