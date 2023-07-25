@@ -6,6 +6,10 @@ on init
     write /sys/module/musb_hdrc/parameters/mu3d_force_on 1
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
 
+    # Set xiaomi touch permissions
+    chown system system /dev/xiaomi-touch
+    chmod 0660 /dev/xiaomi-touch
+
 on post-fs-data
     # Thermal
     mkdir /data/vendor/thermal 0771 root system
