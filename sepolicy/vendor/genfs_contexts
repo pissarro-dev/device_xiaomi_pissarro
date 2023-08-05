@@ -1,3 +1,6 @@
+# Extcon
+genfscon sysfs /devices/platform/extcon_usb/extcon/extcon0/cable.1/name                                    u:object_r:sysfs_extcon:s0
+
 # Wakeup (https://lkml.org/lkml/2019/8/6/1275)
 genfscon sysfs /devices/platform/11281000.i2c11/i2c-11/11-0066/power_supply/cp_slave/wakeup                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11cb0000.i2c3/i2c-3/3-0028/wakeup                                         u:object_r:sysfs_wakeup:s0
