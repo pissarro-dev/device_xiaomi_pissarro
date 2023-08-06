@@ -1,4 +1,5 @@
 # Extcon
+genfscon sysfs /devices/platform/extcon_usb/extcon/extcon0/cable.0/name                                    u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/extcon_usb/extcon/extcon0/cable.1/name                                    u:object_r:sysfs_extcon:s0
 
 # Wakeup (https://lkml.org/lkml/2019/8/6/1275)
