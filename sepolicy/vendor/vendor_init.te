@@ -1,1 +1,2 @@
 rw_dir_file(vendor_init, sysfs_leds)
+set_prop(vendor_init, vendor_batterysecret_prop)
