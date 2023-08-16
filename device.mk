@@ -279,14 +279,14 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek \
-    android.hardware.power@1.3.vendor
+    android.hardware.power-service.xiaomi-libperfmgr \
+    vendor.mediatek.hardware.mtkpower@1.2-service.stub \
+    libmtkperf_client_vendor \
+    libmtkperf_client
 
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.2.vendor \
     vendor.mediatek.hardware.mtkpower@1.2.vendor
-
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
@@ -316,10 +316,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.mt6877 \
     fstab.mt6877.ramdisk \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6877.rc \
+    init.mt6877.power.rc \
     init.mt6877.usb.rc \
     init.project.rc \
     init.target.rc \

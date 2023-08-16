@@ -1210,6 +1210,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
 # Camera Configs
 vendor/etc/camera/LDC_packdata_xiaomi_v1.dat
@@ -1593,19 +1594,6 @@ vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
-# Perf
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/lib/libmtkperf_client_vendor.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
-vendor/lib64/libmtkperf_client_vendor.so
-vendor/lib64/libperfctl_vendor.so
-vendor/lib64/libpower_timer.so
-vendor/lib64/libpowerhal.so
-vendor/lib64/libpowerhalwrap_vendor.so
-vendor/lib64/vendor.mediatek.hardware.power@2.0.so
-
 # Public libraries
 vendor/etc/public.libraries.txt
 
@@ -1702,7 +1690,6 @@ system/lib64/libimsma_rtp.so
 system/lib64/libimsma_socketwrapper.so
 system/lib64/libmtk_vt_service.so
 system/lib64/libmtk_vt_wrapper.so
-system/lib64/libmtkperf_client.so
 system/lib64/libsignal.so
 system/lib64/libsink.so
 system/lib64/libsource.so
