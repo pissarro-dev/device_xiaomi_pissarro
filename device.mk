@@ -316,10 +316,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.mt6877 \
     fstab.mt6877.ramdisk \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6877.rc \
+    init.mt6877.power.rc \
     init.mt6877.usb.rc \
     init.project.rc \
     init.target.rc \
