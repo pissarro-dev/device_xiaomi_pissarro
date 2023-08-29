@@ -672,8 +672,8 @@ on boot
     chmod 0660 /sys/devices/system/cpu/cpufreq/hotplug/cpu_num_base
     chown system system /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
     chmod 0660 /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
-    chown system system /sys/devices/system/cpu/cpufreq/policy4/scaling_governor
-    chmod 0660 /sys/devices/system/cpu/cpufreq/policy4/scaling_governor
+    chown system system /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
+    chmod 0660 /sys/devices/system/cpu/cpufreq/policy6/scaling_governor
     chown root   system /sys/kernel/debug/binder/transaction_log_enable
     chown root   system /sys/kernel/debug/binder/perf_evalue
     chown system system /sys/devices/system/cpu/rq-stats/htasks_thresh
