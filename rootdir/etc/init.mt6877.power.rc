@@ -1,4 +1,7 @@
 on property:init.svc.vendor.charger=running
+    # Enable UFS powersaving
+    write /sys/devices/platform/bootdevice/clkgate_enable 1
+
     # Keep one LITTLE and one big
     write /sys/devices/system/cpu/cpu1/online 0
     write /sys/devices/system/cpu/cpu2/online 0
@@ -8,6 +11,9 @@ on property:init.svc.vendor.charger=running
     write /sys/devices/system/cpu/cpu7/online 0
 
 on init
+    # Disable UFS powersaving
+    write /sys/devices/platform/bootdevice/clkgate_enable 0
+
     # Create energy-aware scheduler tuning nodes
     mkdir /dev/stune/foreground
     mkdir /dev/stune/background
@@ -74,6 +80,9 @@ on enable-low-power
     write /dev/cpuset/background/cpus 4-5
     write /dev/cpuset/system-background/cpus 2-5
     write /dev/cpuset/restricted/cpus 2-5
+
+    # Enable UFS powersaving
+    write /sys/devices/platform/bootdevice/clkgate_enable 1
 
     write /proc/cpufreq/cpufreq_sched_disable 0
     write /proc/sys/kernel/sched_migration_cost_ns 200000
