@@ -222,6 +222,11 @@
         <fqname>@1.0::IVideoTelephony/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.xiaomi.hardware.citsensorservice</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::ICitSensorService/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.microtrust.hardware.thh</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IThhDevice/default</fqname>
