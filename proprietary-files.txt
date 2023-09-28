@@ -426,3 +426,8 @@ vendor/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta
 vendor/mitee/ta/a985d3eb-3b52-4d44-be6c628a813561e8.ta
 vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
 vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
+
+# USB
+vendor/bin/hw/android.hardware.usb@1.2-service-mediatek
+vendor/etc/init/android.hardware.usb@1.2-service-mediatek.rc
+vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatek.xml
