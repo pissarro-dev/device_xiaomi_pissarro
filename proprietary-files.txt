@@ -188,6 +188,12 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
+# Connectivity
+vendor/bin/conninfra_loader
+vendor/firmware/conninfra.cfg
+vendor/firmware/soc5_0_ram_mcu_1_1_hdr.bin
+vendor/firmware/soc5_0_ram_wmmcu_1_1_hdr.bin
+
 # ConsumerIr
 vendor/lib64/hw/consumerir.common.so
 
