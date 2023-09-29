@@ -324,6 +324,17 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 vendor/etc/dsi_k16_38_0c_0a_dsc_vdo_mi.xml
 vendor/etc/dsi_k16_38_0e_0b_dsc_vdo_mi.xml
 
+# Fingerprint
+vendor/etc/vintf/manifest/fod.xml
+vendor/lib64/com.fingerprints.extension@3.0.so
+vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+
 # Fuelgauge
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
