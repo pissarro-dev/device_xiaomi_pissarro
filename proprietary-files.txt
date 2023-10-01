@@ -1005,6 +1005,16 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 vendor/etc/dsi_k16_38_0c_0a_dsc_vdo_mi.xml
 vendor/etc/dsi_k16_38_0e_0b_dsc_vdo_mi.xml
 
+# DRM
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libtlcWidevineModularDrm.so
+vendor/lib64/liburee_meta_drmkeyinstall.so
+vendor/lib64/libwvhidl.so
+vendor/lib64/mediadrm/libwvdrmengine.so
+
 # Fingerprint
 vendor/etc/vintf/manifest/fod.xml
 vendor/lib64/com.fingerprints.extension@3.0.so
