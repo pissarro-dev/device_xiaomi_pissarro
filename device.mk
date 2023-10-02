@@ -174,6 +174,13 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+   FrameworksResOverlayPissarro \
+   SystemUIOverlayPissarro \
+   TelephonyResOverlayPissarro \
+   TetheringResOverlayPissarro \
+   WifiOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
