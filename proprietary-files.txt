@@ -1005,6 +1005,10 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 vendor/etc/dsi_k16_38_0c_0a_dsc_vdo_mi.xml
 vendor/etc/dsi_k16_38_0e_0b_dsc_vdo_mi.xml
 
+# Display Firmware
+vendor/firmware/goodix_gt9896_cfg_k16.bin
+vendor/firmware/goodix_gt9896_fw_k16.bin
+
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
