@@ -6,9 +6,6 @@ vendor/lib64/libaedv.so
 
 # Audio
 vendor/etc/aurisys_param/FV-SAM-MTKXX.dat
-vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
 vendor/lib/hw/audio.primary.mt6877.so
 vendor/lib/hw/audio.r_submix.mt6877.so
 vendor/lib/hw/sound_trigger.primary.default.so
@@ -157,6 +154,16 @@ vendor/etc/audio_param/VolumeGainMap_AudioParam.xml
 vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml
 vendor/etc/audio_param/Volume_AudioParam.xml
 vendor/etc/audio_param/Volume_ParamUnitDesc.xml
+
+# Audio Firmware
+vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-delta-rcv-handset.txt
+vendor/firmware/cs35l41-delta-rcv-handsfree.txt
+vendor/firmware/cs35l41-delta-rcv-music.txt
+vendor/firmware/cs35l41-delta-spk-handsfree.txt
+vendor/firmware/cs35l41-delta-spk-music.txt
+vendor/firmware/cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
 
 # Batterysecret
 vendor/bin/batterysecret
