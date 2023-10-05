@@ -1039,7 +1039,6 @@ vendor/lib/libfgauge_gm30.so
 
 # Gatekeeper
 vendor/lib64/hw/gatekeeper.beanpod.so
-vendor/lib64/hw/gatekeeper.mitee.so
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
@@ -1082,9 +1081,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 # Keymaster
 vendor/bin/bp_kmsetkey_ca
 vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod
-vendor/bin/hw/android.hardware.keymaster@4.0-service.mitee
 vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
-vendor/etc/init/android.hardware.keymaster@4.0-service.mitee.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 
 # Media
@@ -1499,22 +1496,6 @@ vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
 vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
-
-# Trusted Execution Environment (MITEE)
-vendor/bin/tee-supplicant
-vendor/etc/init/tee-supplicant.rc
-vendor/lib64/libmt_mitee.so
-vendor/lib64/libmt_mitee@1.2.so
-vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta
-vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta
-vendor/mitee/ta/3d08821c-33a6-11e6-a1fa089e01c83aa2.ta
-vendor/mitee/ta/4d573443-6a56-4272-ac6f2425af9ef9bb.ta
-vendor/mitee/ta/68bcd09d-4101-4c0a-9552ed0af9ae16b2.ta
-vendor/mitee/ta/86f623f6-a299-4dfd-b560ffd3e5a62c29.ta
-vendor/mitee/ta/88ce8e6b-8646-4092-bb78faf5b55ff4df.ta
-vendor/mitee/ta/a985d3eb-3b52-4d44-be6c628a813561e8.ta
-vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta
-vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta
 
 # USB
 vendor/bin/hw/android.hardware.usb@1.2-service-mediatek
