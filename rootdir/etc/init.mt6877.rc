@@ -737,10 +737,6 @@ on boot
     chmod 0770 /sys/power/tuxonice
     chmod 0220 /sys/power/tuxonice/do_hibernate
 
-    #BT Start
-    setprop persist.bluetooth.a2dp_offload.disabled true
-    #BT End
-
     # Smartbook Handler Framework
     chown system system /sys/power/sb_state
     chmod 0660 /sys/power/sb_state
