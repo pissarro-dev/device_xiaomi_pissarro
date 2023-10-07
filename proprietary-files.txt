@@ -1689,6 +1689,7 @@ vendor/lib64/hw/sensors.mt6877.so
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhwm.so
 vendor/lib64/libksensor.so
+vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensor_custom.so
 
 # Sensors (citsensor)
