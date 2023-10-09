@@ -49,6 +49,10 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibi
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_pissarro
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_pissarro
+
 # Kernel
 BOARD_DTB_OFFSET := 0x07c0800
 BOARD_KERNEL_BASE := 0x40078000
@@ -76,6 +80,9 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 TARGET_KERNEL_CONFIG := pissarro_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/pissarro
+
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := pissarro,pissarroin,pissarroinpro,pissarropro
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
