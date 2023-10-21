@@ -1570,6 +1570,9 @@ vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
 
+# NFC
+vendor/lib64/libsn100u_fw.so
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/nvram_daemon

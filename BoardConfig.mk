@@ -79,6 +79,10 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 TARGET_KERNEL_CONFIG := pissarro_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/pissarro
 
+# NFC
+ODM_MANIFEST_SKUS += nfc
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := pissarro,pissarroin,pissarroinpro,pissarropro
 
