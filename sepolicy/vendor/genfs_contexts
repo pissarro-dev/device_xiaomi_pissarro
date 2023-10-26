@@ -1,0 +1,11 @@
+# Wakeup (https://lkml.org/lkml/2019/8/6/1275)
+genfscon sysfs /devices/platform/11281000.i2c11/i2c-11/11-0066/power_supply/cp_slave/wakeup                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11cb0000.i2c3/i2c-3/3-0028/wakeup                                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d00000.i2c5/i2c-5/5-0034/mt6360_pmu_chg.2.auto/power_supply/bbc/wakeup  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d00000.i2c5/i2c-5/5-004e/tcpc/type_c_port0/wakeup                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d00000.i2c5/i2c-5/5-004e/wakeup                                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d01000.i2c7/i2c-7/7-005a/wakeup                                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d01000.i2c7/i2c-7/7-0066/power_supply/cp_master/wakeup                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d03000.i2c9/i2c-9/9-0035/power_supply/xmusb350/wakeup                   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d03000.i2c9/i2c-9/9-0055/power_supply/bms/wakeup                        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/goodix_ts.0/wakeup                                                        u:object_r:sysfs_wakeup:s0
