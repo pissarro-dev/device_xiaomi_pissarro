@@ -178,6 +178,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayPissarro \
    FrameworksResOverlayPissarro \
+   SettingsResOverlayPissarro \
    SystemUIOverlayPissarro \
    TelephonyResOverlayPissarro \
    TetheringResOverlayPissarro \
