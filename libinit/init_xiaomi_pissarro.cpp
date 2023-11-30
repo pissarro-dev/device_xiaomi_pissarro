@@ -17,7 +17,7 @@ static const variant_info_t pissarroin_info = {
     .device = "pissarroin",
     .marketname = "Xiaomi 11i",
     .model = "21091116I",
-    .build_fingerprint = "Xiaomi/pissarroin/pissarroin:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys",
+    .build_fingerprint = "Xiaomi/pissarroin/pissarroin:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
 static const variant_info_t pissarroinpro_info = {
@@ -28,7 +28,7 @@ static const variant_info_t pissarroinpro_info = {
     .device = "pissarroinpro",
     .marketname = "Xiaomi 11i HyperCharge",
     .model = "21091116UI",
-    .build_fingerprint = "Xiaomi/pissarroinpro/pissarroinpro:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys",
+    .build_fingerprint = "Xiaomi/pissarroinpro/pissarroinpro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
 static const variant_info_t pissarro_info = {
@@ -39,7 +39,7 @@ static const variant_info_t pissarro_info = {
     .device = "pissarro",
     .marketname = "Redmi Note 11 Pro",
     .model = "21091116C",
-    .build_fingerprint = "Redmi/pissarro/pissarro:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/pissarro/pissarro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
 static const variant_info_t pissarroprocn_info = {
@@ -50,7 +50,7 @@ static const variant_info_t pissarroprocn_info = {
     .device = "pissarropro",
     .marketname = "Redmi Note 11 Pro+",
     .model = "21091116UC",
-    .build_fingerprint = "Redmi/pissarropro/pissarropro:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/pissarropro/pissarropro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
 static const variant_info_t pissarroprods_info = {
@@ -61,7 +61,7 @@ static const variant_info_t pissarroprods_info = {
     .device = "pissarropro",
     .marketname = "Redmi Note 11 Pro+ 5G",
     .model = "21091116UG",
-    .build_fingerprint = "Redmi/pissarropro_global/pissarropro:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/pissarropro_global/pissarropro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
 static const variant_info_t pissarropross_info = {
@@ -72,7 +72,7 @@ static const variant_info_t pissarropross_info = {
     .device = "pissarropro",
     .marketname = "Redmi Note 11 Pro+ 5G",
     .model = "21091116UG",
-    .build_fingerprint = "Redmi/pissarropro_global/pissarropro:12/SP1A.210812.016/V14.0.6.0.TKTMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/pissarropro_global/pissarropro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
 static const std::vector<variant_info_t> variants = {
