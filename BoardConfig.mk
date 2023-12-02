@@ -64,7 +64,6 @@ BOARD_BOOT_HEADER_VERSION := 2
 BOARD_KERNEL_IMAGE_NAME := Image
 
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.tee_type=2
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 TARGET_FORCE_PREBUILT_KERNEL := true
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
