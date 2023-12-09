@@ -15,8 +15,7 @@ static const variant_info_t pissarroin_info = {
 
     .brand = "Xiaomi",
     .device = "pissarroin",
-    .marketname = "Xiaomi 11i",
-    .model = "21091116I",
+    .model = "Xiaomi 11i",
     .build_fingerprint = "Xiaomi/pissarroin/pissarroin:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
@@ -26,8 +25,7 @@ static const variant_info_t pissarroinpro_info = {
 
     .brand = "Xiaomi",
     .device = "pissarroinpro",
-    .marketname = "Xiaomi 11i HyperCharge",
-    .model = "21091116UI",
+    .model = "Xiaomi 11i HyperCharge",
     .build_fingerprint = "Xiaomi/pissarroinpro/pissarroinpro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
@@ -37,8 +35,7 @@ static const variant_info_t pissarro_info = {
 
     .brand = "Redmi",
     .device = "pissarro",
-    .marketname = "Redmi Note 11 Pro",
-    .model = "21091116C",
+    .model = "Redmi Note 11 Pro",
     .build_fingerprint = "Redmi/pissarro/pissarro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
@@ -48,8 +45,7 @@ static const variant_info_t pissarroprocn_info = {
 
     .brand = "Redmi",
     .device = "pissarropro",
-    .marketname = "Redmi Note 11 Pro+",
-    .model = "21091116UC",
+    .model = "Redmi Note 11 Pro+",
     .build_fingerprint = "Redmi/pissarropro/pissarropro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
@@ -59,8 +55,7 @@ static const variant_info_t pissarroprods_info = {
 
     .brand = "Redmi",
     .device = "pissarropro",
-    .marketname = "Redmi Note 11 Pro+ 5G",
-    .model = "21091116UG",
+    .model = "Redmi Note 11 Pro+ 5G",
     .build_fingerprint = "Redmi/pissarropro_global/pissarropro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
@@ -70,8 +65,7 @@ static const variant_info_t pissarropross_info = {
 
     .brand = "Redmi",
     .device = "pissarropro",
-    .marketname = "Redmi Note 11 Pro+ 5G",
-    .model = "21091116UG",
+    .model = "Redmi Note 11 Pro+ 5G",
     .build_fingerprint = "Redmi/pissarropro_global/pissarropro:12/SP1A.210812.016/V14.0.7.0.TKTMIXM:user/release-keys",
 };
 
