@@ -12,3 +12,4 @@ genfscon sysfs /devices/platform/11d01000.i2c7/i2c-7/7-0066/power_supply/cp_mast
 genfscon sysfs /devices/platform/11d03000.i2c9/i2c-9/9-0035/power_supply/xmusb350/wakeup                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/11d03000.i2c9/i2c-9/9-0055/power_supply/bms/wakeup                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/goodix_ts.0/wakeup                                                        u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/odm/odm:testing-mode/wakeup                                               u:object_r:sysfs_wakeup:s0
