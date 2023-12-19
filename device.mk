@@ -343,7 +343,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.pissarro-multihal \
     android.frameworks.sensorservice@1.0.vendor \
-    libsensorndkbridge
+    libsensorndkbridge \
+    libshim_sensors
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
