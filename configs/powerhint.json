@@ -214,43 +214,43 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1660000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1800000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUSchedBoost",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "6"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAUclampMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "50"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "FGUclampMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "50"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "100"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "DRAMOppMin",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "1"
     },
     {
