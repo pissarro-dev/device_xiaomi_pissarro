@@ -1753,7 +1753,6 @@ vendor/bin/mi_thermald
 vendor/bin/thermal
 vendor/bin/thermal_manager
 vendor/bin/thermalloadalgod
-vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
 vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermal_manager.rc
@@ -1859,6 +1858,9 @@ vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 vendor/lib/libmtcloader.so
 vendor/lib/libthermalalgo.so
+
+# Thermal Config - from op555bl1-user 12 SP1A.210812.016 1659195346767 release-keys
+vendor/etc/.tp/thermal.conf|714e2d2abb2498b890aea9099131c0fd2a584274
 
 # Trusted Execution Environment (TEE)
 vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
