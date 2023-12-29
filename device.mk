@@ -145,6 +145,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
     android.hardware.health-service.mediatek-recovery
 
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0.vendor
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor \
