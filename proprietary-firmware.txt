@@ -1,0 +1,18 @@
+# Unpinned blobs from MIUI V14.0.8.0.TKTMIXM (pissarro) fastboot package
+
+audio_dsp.img;AB
+cam_vpu1.img;AB
+cam_vpu2.img;AB
+cam_vpu3.img;AB
+dpm.img;AB
+gz.img;AB
+lk.img;AB
+logo.bin:logo.img;AB
+mcupm.img;AB
+md1img.img;AB
+pi_img.img;AB
+preloader_pissarro.bin:preloader.img;AB
+scp.img;AB
+spmfw.img;AB
+sspm.img;AB
+tee.img;AB
