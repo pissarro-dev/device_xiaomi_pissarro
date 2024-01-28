@@ -1399,10 +1399,6 @@ vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
-# Dolby (daxService) - from bora2g-user 12 SOWS32.121-40-2 30355 release-keys
-system_ext/etc/permissions/com.dolby.daxservice.xml|cdd700ce16303ff2baa41eac44ed779f545db418
-system_ext/priv-app/daxService/daxService.apk|8ee0908998e08425cd2f1808224c4bc693295c29
-
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
@@ -1663,6 +1659,8 @@ vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Radio (MTK-IMS) - from plato-user 14 UP1A.230620.001 V14.0.7.0.ULQMIXM release-keys
+system_ext/bin/vtservice|59adc81ee1ad1f3fb4942cd6e8e7100325002eb2
+system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
 system_ext/framework/mediatek-common.jar:system/framework/mediatek-common.jar|895c6819d00deb385675cc7b90f073d0b6fbd29d
 system_ext/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar|a9789fd904f4b0643a3257e798318faabf342477
 system_ext/framework/mediatek-ims-base.jar:system/framework/mediatek-ims-base.jar|a6f7ae937de5b9c25e41af8c15db2717a31a6e97
@@ -1671,13 +1669,11 @@ system_ext/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek
 system_ext/framework/mediatek-telecom-common.jar:system/framework/mediatek-telecom-common.jar|686eaf0a472f44194116a0861944483cd9b09a38
 system_ext/framework/mediatek-telephony-base.jar:system/framework/mediatek-telephony-base.jar|f66b872e413d16fc29d22ead4e94984f84be94e9
 system_ext/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar|869c6918a945ecb87d8b30ec5ca4056d6b863099
-system_ext/bin/vtservice|59adc81ee1ad1f3fb4942cd6e8e7100325002eb2
-system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
 system_ext/lib64/libcomutils.so|6d9cd979f33ef01cb26861a38a59e76e1c2a3acb
+system_ext/lib64/libimsma.so|547ffdd8a8d57d6624b69eb27ac0e1642aab09bc
 system_ext/lib64/libimsma_adapt.so|b95939f797ba52d87bb9fa6ebf356e0fb4fcfe56
 system_ext/lib64/libimsma_rtp.so|02b33fba68211362b439bb05a965ba6e01fa3ea0
 system_ext/lib64/libimsma_socketwrapper.so|1f9b83322c41e5b0a7b3130f74a38ddb14f578d8
-system_ext/lib64/libimsma.so|547ffdd8a8d57d6624b69eb27ac0e1642aab09bc
 system_ext/lib64/libmtk_vt_service.so|c46d43d49fb35e21cb34cdea1f33ad4b964e2f22
 system_ext/lib64/libmtk_vt_wrapper.so|b6f8737a084431cdd8d77c9188e176b7e9364876
 system_ext/lib64/libsignal.so|0f55bb64c660fe4cda2b695121580b054f026e73
