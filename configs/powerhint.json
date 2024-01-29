@@ -42,19 +42,19 @@
     },
     {
       "Name": "GPUMaxFreq",
-      "Path": "/sys/kernel/gpu/gpu_max_clock",
+      "Path": "/sys/devices/platform/13000000.mali/devfreq/13000000.mali/max_freq",
       "Values": [
-        "890",
-        "950"
+        "950000000"
       ],
+      "DefaultIndex": 0,
       "ResetOnInit": true
     },
     {
       "Name": "GPUMinFreq",
-      "Path": "/sys/kernel/gpu/gpu_min_clock",
+      "Path": "/sys/devices/platform/13000000.mali/devfreq/13000000.mali/min_freq",
       "Values": [
-        "385",
-        "545"
+        "545000000",
+        "385000000"
       ],
       "ResetOnInit": true
     },
@@ -219,18 +219,6 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "GPUMaxFreq",
-      "Duration": 0,
-      "Value": "890"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "GPUMinFreq",
-      "Duration": 0,
-      "Value": "545"
-    },
-    {
-      "PowerHint": "INTERACTION",
       "Node": "DRAMOppMin",
       "Duration": 0,
       "Value": "0"
@@ -288,6 +276,12 @@
       "Node": "PowerHALRenderingState",
       "Duration": 0,
       "Value": "EXPENSIVE_RENDERING"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "545000000"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
