@@ -66,8 +66,8 @@ function blob_fixup {
             "$PATCHELF" --replace-needed "android.hardware.gnss-V1-ndk_platform.so" "android.hardware.gnss-V1-ndk.so" "$2"
             ;;
         vendor/bin/mnld|\
-        vendor/lib*/hw/android.hardware.sensors@2.X-subhal-mediatek.so|\
-        vendor/lib*/libaalservice.so)
+        vendor/lib*/libaalservice.so|\
+        vendor/lib64/libcam.utils.sensorprovider.so)
             "$PATCHELF" --add-needed "libshim_sensors.so" "$2"
             ;;
         system_ext/lib64/libsink.so)
