@@ -8,7 +8,7 @@ allow hal_power_default sysfs_gpu:dir search;
 allow hal_power_default sysfs_gpu:file rw_file_perms;
 
 # DT2W
-allow mtk_hal_power vendor_touchfeature_device:chr_file rw_file_perms;
+allow hal_power_default vendor_touchfeature_device:chr_file rw_file_perms;
 
 # To get/set powerhal state property
 set_prop(hal_power_default, vendor_power_prop)
