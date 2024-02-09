@@ -375,8 +375,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-service.mediatek
 
 # Vibrator
-$(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
-
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
