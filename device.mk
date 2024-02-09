@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     libhapticgenerator
 
 PRODUCT_PACKAGES += \
-    DolbyManager \
+    XiaomiDolby \
     MtkInCallService
 
 PRODUCT_COPY_FILES += \
