@@ -72,9 +72,9 @@
       "Name": "GPUSchedPeriod",
       "Path": "/sys/devices/platform/13000000.mali/js_scheduling_period",
       "Values": [
-        "50",
+        "100",
         "75",
-        "100"
+        "50"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -83,9 +83,9 @@
       "Name": "GPUDVFSInterval",
       "Path": "/sys/devices/platform/13000000.mali/dvfs_period",
       "Values": [
-        "50",
+        "100",
         "75",
-        "100"
+        "50"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -287,7 +287,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUSchedPeriod",
       "Duration": 0,
-      "Value": "100"
+      "Value": "50"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
