@@ -1,4 +1,4 @@
-package co.potatoproject.dt2w.pissarro;
+package org.lineageos.dt2w.pissarro;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
