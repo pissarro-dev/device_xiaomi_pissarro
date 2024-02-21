@@ -29,13 +29,13 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_co.potatoproject.dt2w.pissarro"
+        "privapp-permissions_org.lineageos.dt2w.pissarro"
     ]
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_co.potatoproject.dt2w.pissarro",
+    name: "privapp-permissions_org.lineageos.dt2w.pissarro",
     sub_dir: "permissions",
-    src: "privapp-permissions_co.potatoproject.dt2w.pissarro.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.pissarro.xml",
     filename_from_src: true,
 }
