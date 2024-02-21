@@ -97,5 +97,11 @@ on enable-low-power
     write /proc/cpufreq/cpufreq_sched_disable 0
     write /proc/sys/kernel/sched_migration_cost_ns 200000
 
+on property:persist.sys.pissarro.dt2w=0
+    exec /system/bin/sendevent /dev/input/event2 0 1 4
+
+on property:persist.sys.pissarro.dt2w=1
+    exec /system/bin/sendevent /dev/input/event2 0 1 5
+
 on property:sys.boot_completed=1
     trigger enable-low-power
