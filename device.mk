@@ -118,6 +118,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4.vendor
 
+# DT2W
+PRODUCT_PACKAGES += \
+    DT2W-Service-Pissarro 
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
