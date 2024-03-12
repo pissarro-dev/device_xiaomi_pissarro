@@ -41,24 +41,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "GPUMaxFreq",
-      "Path": "/sys/kernel/gpu/gpu_max_clock",
-      "Values": [
-        "890",
-        "950"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "GPUMinFreq",
-      "Path": "/sys/kernel/gpu/gpu_min_clock",
-      "Values": [
-        "385",
-        "545"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "GPUSchedMode",
       "Path": "/sys/devices/platform/13000000.mali/js_ctx_scheduling_mode",
       "Values": [
