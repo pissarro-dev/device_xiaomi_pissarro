@@ -1,4 +1,4 @@
-# Unpinned blobs from pissarro_global-user 13 TP1A.220624.014 V14.0.7.0.TKTMIXM release-keys
+# Unpinned blobs from pissarro_global-user 13 TP1A.220624.014 V816.0.2.0.TKTMIXM release-keys
 
 # AEE
 vendor/lib/libaedv.so
@@ -1284,11 +1284,11 @@ vendor/lib/libmml.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpqframework.so
 vendor/lib/libudf.so
-vendor/lib/mt6877/libaiselector.so
-vendor/lib/mt6877/libdpframework.so
-vendor/lib/mt6877/libmtk_drvb.so
-vendor/lib/mt6877/libnir_neon_driver.so
-vendor/lib/mt6877/libpq_prot.so
+vendor/lib/mt6877/libaiselector.so:vendor/lib/libaiselector.so
+vendor/lib/mt6877/libdpframework.so:vendor/lib/libdpframework.so
+vendor/lib/mt6877/libmtk_drvb.so:vendor/lib/libmtk_drvb.so
+vendor/lib/mt6877/libnir_neon_driver.so:vendor/lib/libnir_neon_driver.so
+vendor/lib/mt6877/libpq_prot.so:vendor/lib/libpq_prot.so
 vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
@@ -1342,11 +1342,11 @@ vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/libudf.so
-vendor/lib64/mt6877/libaiselector.so
-vendor/lib64/mt6877/libdpframework.so
-vendor/lib64/mt6877/libmtk_drvb.so
-vendor/lib64/mt6877/libnir_neon_driver.so
-vendor/lib64/mt6877/libpq_prot.so
+vendor/lib64/mt6877/libaiselector.so:vendor/lib64/libaiselector.so
+vendor/lib64/mt6877/libdpframework.so:vendor/lib64/libdpframework.so
+vendor/lib64/mt6877/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so
+vendor/lib64/mt6877/libnir_neon_driver.so:vendor/lib64/libnir_neon_driver.so
+vendor/lib64/mt6877/libpq_prot.so:vendor/lib64/libpq_prot.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
@@ -1516,7 +1516,6 @@ vendor/lib/libMtkOmxCore.so
 vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
 vendor/lib/libadpcmdec_mtk.so
-vendor/lib/libalacdec_mtk.so
 vendor/lib/libmp3dec_mtk.so
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
@@ -1561,9 +1560,9 @@ vendor/lib64/libneuron_wrapper.so
 vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libvpu.so
-vendor/lib64/mt6877/libneuron_platform.vpu.so
-vendor/lib64/mt6877/libneuron_runtime.5.so
-vendor/lib64/mt6877/libneuron_runtime.so
+vendor/lib64/mt6877/libneuron_platform.vpu.so:vendor/lib64/libneuron_platform.vpu.so
+vendor/lib64/mt6877/libneuron_runtime.5.so:vendor/lib64/libneuron_runtime.5.so
+vendor/lib64/mt6877/libneuron_runtime.so:vendor/lib64/libneuron_runtime.so
 vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
